@@ -1,0 +1,19 @@
+{
+    "name":"Expermental Extension",
+    "version": "1.0",
+    "manifest_version": 2,
+
+    "description": "made with html,css,javascript <3",
+    "icons": {
+        "128":"icon-128.png"
+    },
+
+    "browser_action": {
+        "default_title": "Color Changer",
+        "default_popup": "popup.html"
+    },
+
+    "permissions": [
+        "http://*/*","https://*/*"
+    ]
+}
